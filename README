@@ -1,0 +1,16 @@
+This is an implementation of 
+
+ *    SEGMENTATION OF POINT CLOUDS USING SMOOTHNESS CONSTRAINT
+ *    by
+ *    T. Rabbania, F. A. van den Heuvelb, G. Vosselmanc
+
+It still needs to be cleaned up before it should be included in a larger
+outside library system, but it should provide a good guide for an
+implementation.
+
+
+To use try:
+
+cmake .
+make
+./bin/segment -i example_1.pcd -n 0.1 0.001
